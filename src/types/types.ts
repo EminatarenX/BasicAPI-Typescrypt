@@ -4,11 +4,6 @@ export interface User {
     
 }
 
-export enum Role {
-    admin = "admin",
-    user = "user"
-}
-
 export interface Habitacion {
     descripcion : string;
     precio : number;
